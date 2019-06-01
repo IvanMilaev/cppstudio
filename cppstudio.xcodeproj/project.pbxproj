@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		98EFB4C622A1388D00A3AB90 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98EFB4C522A1388D00A3AB90 /* main.cpp */; };
 		98EFB4CE22A138C800A3AB90 /* BinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98EFB4CC22A138C800A3AB90 /* BinaryTree.cpp */; };
+		98EFB4D122A2EC3A00A3AB90 /* DoublyLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98EFB4CF22A2EC3A00A3AB90 /* DoublyLinkedList.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		98EFB4C522A1388D00A3AB90 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		98EFB4CC22A138C800A3AB90 /* BinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTree.cpp; sourceTree = "<group>"; };
 		98EFB4CD22A138C800A3AB90 /* BinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTree.hpp; sourceTree = "<group>"; };
+		98EFB4CF22A2EC3A00A3AB90 /* DoublyLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoublyLinkedList.cpp; sourceTree = "<group>"; };
+		98EFB4D022A2EC3A00A3AB90 /* DoublyLinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoublyLinkedList.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				98EFB4C522A1388D00A3AB90 /* main.cpp */,
+				98EFB4CF22A2EC3A00A3AB90 /* DoublyLinkedList.cpp */,
+				98EFB4D022A2EC3A00A3AB90 /* DoublyLinkedList.hpp */,
 				98EFB4CC22A138C800A3AB90 /* BinaryTree.cpp */,
 				98EFB4CD22A138C800A3AB90 /* BinaryTree.hpp */,
 			);
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98EFB4CE22A138C800A3AB90 /* BinaryTree.cpp in Sources */,
+				98EFB4D122A2EC3A00A3AB90 /* DoublyLinkedList.cpp in Sources */,
 				98EFB4C622A1388D00A3AB90 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
