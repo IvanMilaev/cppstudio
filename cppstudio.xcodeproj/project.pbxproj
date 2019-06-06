@@ -11,6 +11,10 @@
 		98EFB4CE22A138C800A3AB90 /* BinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98EFB4CC22A138C800A3AB90 /* BinaryTree.cpp */; };
 		98EFB4D122A2EC3A00A3AB90 /* DoublyLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98EFB4CF22A2EC3A00A3AB90 /* DoublyLinkedList.cpp */; };
 		98EFB4D422A520C000A3AB90 /* BinaryTreeDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98EFB4D222A520BF00A3AB90 /* BinaryTreeDictionary.cpp */; };
+		98EFB4ED22A5536C00A3AB90 /* CircularDoublyLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98EFB4EB22A5536C00A3AB90 /* CircularDoublyLinkedList.cpp */; };
+		98EFB4F022A9823300A3AB90 /* TurnList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98EFB4EE22A9823300A3AB90 /* TurnList.cpp */; };
+		98EFB4F522A9835700A3AB90 /* LinearLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98EFB4F322A9835700A3AB90 /* LinearLists.cpp */; };
+		98EFB4F822A983BF00A3AB90 /* parseMathExpression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98EFB4F622A983BF00A3AB90 /* parseMathExpression.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +38,16 @@
 		98EFB4D022A2EC3A00A3AB90 /* DoublyLinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoublyLinkedList.hpp; sourceTree = "<group>"; };
 		98EFB4D222A520BF00A3AB90 /* BinaryTreeDictionary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeDictionary.cpp; sourceTree = "<group>"; };
 		98EFB4D322A520BF00A3AB90 /* BinaryTreeDictionary.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeDictionary.hpp; sourceTree = "<group>"; };
+		98EFB4EB22A5536C00A3AB90 /* CircularDoublyLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CircularDoublyLinkedList.cpp; sourceTree = "<group>"; };
+		98EFB4EC22A5536C00A3AB90 /* CircularDoublyLinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularDoublyLinkedList.hpp; sourceTree = "<group>"; };
+		98EFB4EE22A9823300A3AB90 /* TurnList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TurnList.cpp; sourceTree = "<group>"; };
+		98EFB4EF22A9823300A3AB90 /* TurnList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurnList.h; sourceTree = "<group>"; };
+		98EFB4F122A982A000A3AB90 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		98EFB4F222A982A000A3AB90 /* output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output.txt; sourceTree = "<group>"; };
+		98EFB4F322A9835700A3AB90 /* LinearLists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearLists.cpp; sourceTree = "<group>"; };
+		98EFB4F422A9835700A3AB90 /* LinearLists.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearLists.hpp; sourceTree = "<group>"; };
+		98EFB4F622A983BF00A3AB90 /* parseMathExpression.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = parseMathExpression.cpp; sourceTree = "<group>"; };
+		98EFB4F722A983BF00A3AB90 /* parseMathExpression.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = parseMathExpression.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,12 +81,22 @@
 			isa = PBXGroup;
 			children = (
 				98EFB4C522A1388D00A3AB90 /* main.cpp */,
+				98EFB4EB22A5536C00A3AB90 /* CircularDoublyLinkedList.cpp */,
+				98EFB4EC22A5536C00A3AB90 /* CircularDoublyLinkedList.hpp */,
+				98EFB4EE22A9823300A3AB90 /* TurnList.cpp */,
+				98EFB4EF22A9823300A3AB90 /* TurnList.h */,
 				98EFB4CF22A2EC3A00A3AB90 /* DoublyLinkedList.cpp */,
 				98EFB4D222A520BF00A3AB90 /* BinaryTreeDictionary.cpp */,
 				98EFB4D322A520BF00A3AB90 /* BinaryTreeDictionary.hpp */,
+				98EFB4F122A982A000A3AB90 /* input.txt */,
+				98EFB4F222A982A000A3AB90 /* output.txt */,
 				98EFB4D022A2EC3A00A3AB90 /* DoublyLinkedList.hpp */,
 				98EFB4CC22A138C800A3AB90 /* BinaryTree.cpp */,
 				98EFB4CD22A138C800A3AB90 /* BinaryTree.hpp */,
+				98EFB4F322A9835700A3AB90 /* LinearLists.cpp */,
+				98EFB4F622A983BF00A3AB90 /* parseMathExpression.cpp */,
+				98EFB4F722A983BF00A3AB90 /* parseMathExpression.hpp */,
+				98EFB4F422A9835700A3AB90 /* LinearLists.hpp */,
 			);
 			path = cppstudio;
 			sourceTree = "<group>";
@@ -133,9 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98EFB4F022A9823300A3AB90 /* TurnList.cpp in Sources */,
 				98EFB4D422A520C000A3AB90 /* BinaryTreeDictionary.cpp in Sources */,
+				98EFB4ED22A5536C00A3AB90 /* CircularDoublyLinkedList.cpp in Sources */,
 				98EFB4CE22A138C800A3AB90 /* BinaryTree.cpp in Sources */,
 				98EFB4D122A2EC3A00A3AB90 /* DoublyLinkedList.cpp in Sources */,
+				98EFB4F822A983BF00A3AB90 /* parseMathExpression.cpp in Sources */,
+				98EFB4F522A9835700A3AB90 /* LinearLists.cpp in Sources */,
 				98EFB4C622A1388D00A3AB90 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

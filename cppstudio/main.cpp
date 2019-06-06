@@ -53,6 +53,40 @@ int main(int argc, const char * argv[]) {
 //    list->display();
     //std::cout << list->head->prev << std:: endl;
     
+//    TurnList a = TurnList();
+//
+//    fstream inFile;
+//
+//    inFile.open("../chapter29/input.txt");
+//    if (!inFile) {
+//        cout << "Unable to open file: "<<"../chapter29/input.txt"<<endl;
+//        exit(1);
+//    }
+//
+//    ofstream outFile;
+//
+//    outFile.open("../chapter29/output.txt");
+//    if (!outFile) {
+//        cout << "Unable to open file: "<<"../chapter29/output.txt"<<endl;
+//        exit(1);
+//    }
+//
+//    inFile>>a;
+//    cout<<a.repr()<<endl;
+//
+//    a.sort();
+//
+//    cout<<a.repr()<<endl;
+//    outFile<<a;
+//    a.delNode(1);
+//    cout<<a.repr()<<endl;
+//
+//    int *t = a.toArray();
+//    for (int i=0;i<a.getLen();i++){
+//        cout<<t[i]<<endl;
+//    }
+//    cout<<a.find(4)<<endl;
+    
     BTree *tree = new BTree();
     word *pen = new word("ручка", "pen");
     word *table = new word("стол", "table");
